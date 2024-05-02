@@ -31,12 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
     timerDisplay.textContent = count;
   }
 
-  function countTimer() {
-    let listItem = document.createElement("li");
-    listItem.textContent = count;
-    countList.appendChild(listItem);
-  }
-
   document.getElementById("start_button").addEventListener("click", startTimer);
   document.getElementById("pause_button").addEventListener("click", pauseTimer);
   document

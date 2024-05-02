@@ -1,0 +1,15 @@
+.box {
+  background-color: #edade0;
+  width: 500px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+body {
+  text-align: center;
+}
+
+.timer-container {
+  background-color: aliceblue;
+}

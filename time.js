@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let count = 0;
   let timerInterval;
   let timerDisplay = document.getElementById("timer");
-  let countList = document.getElementById("count_list");
 
   function startTimer() {
     if (!timerInterval) {

@@ -30,10 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
     timerDisplay.textContent = count;
   }
 
-  document.getElementById("start_button").addEventListener("click", startTimer);
-  document.getElementById("pause_button").addEventListener("click", pauseTimer);
-  document
-    .getElementById("resume_button")
-    .addEventListener("click", resumeTimer);
-  document.getElementById("stop_button").addEventListener("click", stopTimer);
+  document.getElementById("start_button")
+          .addEventListener("click", startTimer);
+  document.getElementById("pause_button")
+          .addEventListener("click", pauseTimer);
+  document.getElementById("resume_button")
+          .addEventListener("click", resumeTimer);
+  document.getElementById("stop_button")
+          .addEventListener("click", stopTimer);
 });

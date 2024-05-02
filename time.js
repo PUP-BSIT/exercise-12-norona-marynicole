@@ -37,11 +37,14 @@ document.addEventListener("DOMContentLoaded", function () {
       countList.appendChild(listItem);
     }
   
-    document.getElementById("start_button").addEventListener("click", startTimer);
-    document.getElementById("pause_button").addEventListener("click", pauseTimer);
-    document
-      .getElementById("resume_button")
-      .addEventListener("click", resumeTimer);
-    document.getElementById("stop_button").addEventListener("click", stopTimer);
-    document.getElementById("count_button").addEventListener("click", countTimer);
+    document.getElementById("start_button")
+    .addEventListener("click", startTimer);
+    document.getElementById("pause_button")
+    .addEventListener("click", pauseTimer);
+    document.getElementById("resume_button")
+    .addEventListener("click", resumeTimer);
+    document.getElementById("stop_button")
+    .addEventListener("click", stopTimer);
+    document.getElementById("count_button")
+    .addEventListener("click", countTimer);
   });
